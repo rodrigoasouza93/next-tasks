@@ -23,7 +23,7 @@ export function Form({ newTaskCreated }: FormProps) {
     <div className="flex flex-1 justify-center">
       <input
         type="text"
-        placeholder="Informe sua próxima tarefa"
+        placeholder="Próxima tarefa"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
         onKeyDown={(e) => e.key === 'Enter' ? createNewTask() : false }

@@ -28,7 +28,7 @@ export function List({ tasks, onChange }: ListProps) {
 
   return (
     <div className={`
-      flex w-3/5 items-start relative
+      flex w-4/5 items-start relative
     `}>
       <ul className={`
         absolute -top-14

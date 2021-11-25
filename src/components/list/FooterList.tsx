@@ -45,9 +45,6 @@ export function FooterList({ tasks, onChange }: FooterListProps) {
         <ButtonList 
           selected={tasks.showCompleted()} 
           onClick={() => onChange(tasks.filterCompleted())}
-          className={`
-            hidden md:inline
-          `}
         >
           Concluidas
         </ButtonList>
